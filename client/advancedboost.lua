@@ -219,7 +219,7 @@ function CreateSettings()	 -- Settings. Base code taken from the boost_lite scri
 	window_open = false
 
 	window = Window.Create()
-	window:SetSize(Vector2(300, 350))
+	window:SetSize(Vector2(300, 380))
 	window:SetPosition((Render.Size - window:GetSize()) / 2)
 
 	window:SetTitle("Boost Settings")
